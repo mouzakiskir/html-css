@@ -28,7 +28,8 @@ ul{list-style-type: none;}
 
 @media only screen and (max-width: 650px) {   .swiper-container{visibility: hidden;}
 #software{visibility: hidden;}
-    .sha{visibility: hidden;}    
+    .sha{visibility: hidden;}
+    .burner{visibility: hidden;}
 }
 
 
