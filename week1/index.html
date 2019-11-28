@@ -12,9 +12,9 @@
 <body>
             <table>
                 <td>
-                <h1>Kiriakos Mouzakis.<img src="images/me.png" id="me"/></h1>
+                <h1 id="intro">Kiriakos Mouzakis.<img src="images/me.png" id="me"/></h1>
                     
-               <h2>Welcome dear visitor,<br> this is my CV web page. <br> I was born in April 1984 and i live in Athens.<br>Currently i'm a web trainee in Social Hackers Academy. If you want to learn more about me, check the tabs below.</h2></td>
+               <h2 id="intro">Welcome dear visitor,<br> this is my CV web page. <br> I was born on April 1984 and i live in Athens.<br>Currently i'm a web trainee in Social Hackers Academy. If you want to learn more about me, check the tabs below.</h2></td>
                 <td><img class="sha" src="images/sha.jpg" alt="Social Hacker logo"/></td>
                 </table>
 
@@ -23,13 +23,18 @@
         <div id="Education" class="tabcontent">
   <h1 style="text-decoration: underline">Education</h1>
   <ul>
-      <li><h3>2017-2019 WEB DESIGNER DEVELOPER/VIDEOGAMES at IEK AIGALEW</h3></li>
-      <li><h3>2012-2013 HEATING ENGINEER OF NATURAL GAS at 1st EPAL in PIREAUS</h3></li>
-      <li><h3>2000-2004 HEATING AND AIR CONDITIONING at 1st TEE in DRAPETSWNA</h3></li>
+      <li><h3>2017-2019 WEB DESIGNER DEVELOPER/VIDEOGAMES at IEK AIGALEW</h3>
+      </li>
+      <li><h3>2012-2013 HEATING ENGINEER OF NATURAL GAS at 1st EPAL in PIREAUS</h3>
+      </li>
+      <li><h3>2000-2004 HEATING AND AIR CONDITIONING at 1st TEE in DRAPETSWNA</h3>
+      </li>
       <br>
       <li><h1 style="text-decoration: underline">Working Experience</h1></li>
-      <li><h3>I WAS WORKING FOR 15 YEARS AS SELF-EMPLOYED HEATING ENGINEER SPECIFICALLY ON OIL BURNERS (LIQUID FUEL) AND AUTONOMOUS CENTRAL HEATING INSTALATIONS.</h3></li>
-      <li><img class="burner" src="images/burner.jpg" alt=burner/></li>
+      <li><h3>I WAS WORKING FOR 15 YEARS AS SELF-EMPLOYED HEATING ENGINEER SPECIFICALLY ON OIL BURNERS (LIQUID FUEL) AND AUTONOMOUS CENTRAL HEATING INSTALATIONS.</h3>
+      </li>
+      <li><img class="burner" src="images/burner.jpg" alt=burner/>
+      </li>
     </ul>
 </div>
 
@@ -43,21 +48,22 @@
 <div><h2 id="software" style="text-decoration: underline">SOFTWARE THAT I USE</h2></div>
     
 <!-- Swiper -->
-  <div class="swiper-container">
+<div class="swiper-container">
     <div class="swiper-wrapper">
-      <div class="swiper-slide"><img align="center" src="images/ps.png"/></div>
+      <div class="swiper-slide"><img src="images/ps.png"/></div>
       <div class="swiper-slide"><img src="images/3ds.jpg"/></div>
       <div class="swiper-slide"><img src="images/unreal.png"/></div>
       <div class="swiper-slide"><img src="images/brackets.jpg"/></div>
       <div class="swiper-slide"><img src="images/inkscape-logo.png"/></div>
-      <div class="swiper-slide"><img src="images/IntelliJ.png"/></div>
-    </div>
+      <div class="swiper-slide"><img src="images/IntelliJ.png"/>
+        </div>
+        </div>
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>
     <!-- Add Arrows -->
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
-  </div>
+    </div>
 </div>
 
 <div id="Contact" class="tabcontent">
@@ -65,18 +71,20 @@
     <div><h4><i class="material-icons" style="font-size:80px">email</i><br>
       mouzakiskir@gmail.com
         <br>
-    <i class="material-icons" style="font-size:80px">phone_iphone</i><br>+30 6974117225</h4></div>
+    <i class="material-icons" style="font-size:80px">phone_iphone</i><br>+30 6974117225</h4>
+    </div>
 </div>
 
 <button class="tablink" onclick="tab('Education', this, 'red')" id="defaultOpen">About me</button>
 <button class="tablink" onclick="tab('Interests', this, 'green')">Interests</button>
 <button class="tablink" onclick="tab('Contact', this, 'blue')">Contact</button>
-    </div>
+</div>
     
-    
-<script src="https://unpkg.com/swiper/js/swiper.js"></script>   
+ <script src="https://unpkg.com/swiper/js/swiper.js"></script>   
 <script src="index.js">   
 </script>
+    
+    
 </body>
 
 </html>
