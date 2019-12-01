@@ -1,0 +1,113 @@
+body{
+background-color: black;
+text-align: center;
+font-family: monospace;
+    }
+
+header,h2{
+    font-size: 5em;
+    background-color: black;
+    color: wheat;
+    }
+
+#grid-flex{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    padding: .5em .5em .5em .5em;
+    flex: 1;
+    border: 3px 3px 3px 3px solid rgba(0,1,0,1);   
+    }
+
+img{
+    background:url( images/Aerial_Photography_UAV_Icon.svg) no-repeat top left;
+    background-size: 5em 5em;
+    }
+
+
+p{
+    margin: 5px 5px 5px 5px;
+    }
+
+.grid-item,img{
+    background-color: gray;
+    color: wheat;
+    font-size: 24px;
+    width:350px;
+    height: auto;
+    margin: 10px 10px 10px 10px; 
+    background-color:0 0 0 0.1;
+    border-bottom-color: white;
+    list-style-type: none;
+    }
+
+:dir(rtl){
+    align-content: center;
+}
+
+/**box_resizing**/
+
+li:nth-child(1) {
+  flex-grow: 1;
+}
+li:nth-child(2) {
+  flex-grow: 1;
+}
+li:nth-child(3) {
+  flex-grow: 1;
+}
+li:nth-child(4) {
+  flex-grow: 1;
+}
+li:nth-child(5) {
+  flex-grow: 1;
+}
+li:nth-child(6) {
+  flex-grow: 1;
+}
+li:nth-child(7) {
+  flex-grow: 1;
+}
+li:nth-child(8) {
+  flex-grow: 1;
+}
+li:nth-child(9) {
+  flex-grow: 1;
+}
+li:nth-child(10) {
+  flex-grow: 1;
+}
+li:nth-child(11) {
+  flex-grow: 1;
+}
+li:nth-child(12) {
+  flex-grow: 1;
+}
+li:nth-child(13) {
+  flex-grow: 2;
+}
+li:nth-child(14) {
+  flex-grow: 1;
+}
+
+@media only screen and (max-width: 1024px) {
+  /**Tablet & laptop devices**/
+  .grid-item,img{
+    font-size: 20px;
+      width:200px;
+    }
+    li:nth-child(13) {
+  flex-grow: 1;
+}
+}
+
+@media only screen and (max-width: 769px){
+  /**For small smartphones**/
+  .grid-item,img{
+    font-size: 10px;
+      width:200px;
+    }
+    li:nth-child(13) {
+        flex-grow: 2;
+        width: 600px;
+    }    
+}
