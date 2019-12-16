@@ -1,3 +1,6 @@
+@media only screen and (min-device-width:320px) and (max-device-width: 2048px)
+ {   
+    
 .blank_space{
     position: relative;
     margin-top: 5%;
@@ -149,4 +152,6 @@ img{filter: gray; /* IE5+ */
 	font-family:sans-serif !important;
 	border:1px solid #222;
     right:0%;
+    z-index: 3;
+}
 }
